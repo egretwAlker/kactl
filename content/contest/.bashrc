@@ -1,3 +1,3 @@
-alias c='g++ -Wall -Wconversion -Wfatal-errors -g -std=c++14 \
-	-fsanitize=undefined,address'
-xmodmap -e 'clear lock' -e 'keycode 66=less greater' #caps = <>
+rcc() {
+    g++ -ftrapv -Wconversion -std=c++11 -Wall -Wextra -pedantic -fno-common -fno-builtin -o ${@: -1}.out $@ && ./${@: -1}.out
+}
