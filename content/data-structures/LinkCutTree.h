@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
 const int N=10010;
 typedef long long ll;
 #define err(...) fprintf(stderr, __VA_ARGS__)
@@ -95,10 +93,8 @@ namespace lct {
 	}
 
 	void clear() {
-		memset(ch, 0, sizeof(ch));
-		memset(fa, 0, sizeof(fa));
-		memset(val, 0, sizeof(val));
-		memset(sm, 0, sizeof(sm));
+		memset(ch, 0, sizeof(ch)); memset(fa, 0, sizeof(fa));
+    memset(val, 0, sizeof(val)); memset(sm, 0, sizeof(sm));
 	}
 }
 using namespace lct;
