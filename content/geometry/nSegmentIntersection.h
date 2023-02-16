@@ -3,7 +3,7 @@
  * Date: 2019-05-07
  * License: CC0
  * Source: cp-algorithms
- * Description: Given  $n$  line segments on the plane. It is required to check whether 
+ * Description: Given n line segments on the plane. It is required to check whether 
  * at least two of them intersect with each other. If the answer is yes, then print 
  * this pair of intersecting segments; it is enough to choose any of them among several
  *  answers. It returns ids of the segments intersecting. This can be used to find if two polygons intersect for example
