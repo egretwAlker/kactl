@@ -16,7 +16,7 @@
  * Status: stress-tested
  */
 #pragma once
-
+#hi
 struct TwoSat {
 	int N;
 	vector<vi> gr;
